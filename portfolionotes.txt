@@ -1,0 +1,90 @@
+cdn - content delivery network 
+fontawesome 
+------------------------
+
+vh- viewport height (unit)
+    1vh is 1% of your screen
+
+position relative: exact location 
+justify-content: space between used to create space between child elements
+ align-items: center (to place child elements vertically center)
+ ul li(parent child)known as descendant selector    
+
+text-decoration:none(used to remove underline)
+font-weight- used to make text bold 
+
+pseudo class represenr special state of an element 
+different types of states 
+    hover
+    unvisited
+    visited
+    before
+    after 
+    etc 
+
+    element:pseudoclass{
+    property:value
+}
+-----------------------------------------------------------
+display: inline-block(remove overlapping)
+--------------------------------------------------------
+
+to bring a content exactly to center we use 3 properties
+
+display:flex; justify-content:center(horizontally center); align-items: center(vertially center);
+----------------------------------------------------------
+Transform:
+translate, rotate,scale to zoom
+---------------------------------------------------------
+css grid system layouts- it provides rows and columns in the webpages
+column gap to bring gap between grid columns 
+fraction(fr) divides equally (display:grid)(grid-template:columns)for columns 
+------------------------------------------------------------
+COLOUR COMBINATION- linear gradient
+syntax background-image: linear-gradient(direction, color1, color2....colorN)
+-----------------------------------------------------------
+
+Animation
+animation: animationname duration;
+@keyframes animationname{
+
+}
+----------------------------------
+for smooth scrolling 
+scroll-behaviour:smooth 
+--------------------------------------------------
+fles-direction: column for display in stack 
+-------------------------------------------------
+
+Z Index - it specifies the stack order of an element, works only for positioned elements
+element with higher value will be positioned at the top(positive as well as negative values)
+----------------------------------------------------
+CSS Variables - variables are of two types  
+-Global variables(access throughout css files)  
+    to create/declare variables :root{ --variableName = value}
+    to call - var(--variableName)
+-Local variables(scope on block level ie only inside a curly brackets)
+----------------------------------------------------
+Media query
+make websites responsive(adjusted in all kinds of devices) using css 
+    extra small(xs) devices max-width <600px
+    small(sm) devices min.width >=600px
+    medium(md) devices >=768px
+    large(lg) devices >=992px
+    extra large(xl) devices >=1200px
+
+display:none - content will not loaded in the browser
+visibility:hidden - html element will be loaded but will not be visible.
+--------------------------------------------------
+hw 
+<600px show an image 
+<768px >600px show a para 
+>768px show both 
+---------------------------------------------
+
+
+    
+
+
+
+
